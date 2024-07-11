@@ -2,27 +2,27 @@ package Model;
 
 public class CompleksNumber {
 // Комплексное число вида a+bi, где а вещественная чать , а bi мнимая часть
-    private int a;
-    public int b;
+    private double a;
+    public double b;
 
-    public CompleksNumber(int a, int b) {
+    public CompleksNumber(double a, double b) {
         this.a = a;
         this.b = b;
     }
 
-    public int getA() {
+    public double getA() {
         return a;
     }
 
-    public int getB() {
+    public double getB() {
         return b;
     }
 
-    public void setA(int a) {
+    public void setA(double a) {
         this.a = a;
     }
 
-    public void setB(int b) {
+    public void setB(double b) {
         this.b = b;
     }
 
